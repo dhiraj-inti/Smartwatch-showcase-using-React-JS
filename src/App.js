@@ -1,7 +1,6 @@
 import './App.css';
 import Watch from './Watch';
 import ProductData from './ProductData';
-import useDate from './DateTime';
 import React, { Component } from 'react';
 
 class App extends Component {
