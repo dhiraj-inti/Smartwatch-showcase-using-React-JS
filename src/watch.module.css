@@ -1,0 +1,33 @@
+.WatchDisplay{
+    z-index: 9999;
+    width: 140px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    top:-320px;
+    right:-215px;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    div{
+        text-align: center;
+    }
+
+    img{
+        height: 40vh;
+        width: 75vw;
+    }
+
+    .WatchDisplay{
+        z-index: 9999;
+        width: 110px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top:-130px;
+        left:102px;
+    }
+}
